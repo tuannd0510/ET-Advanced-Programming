@@ -24,7 +24,7 @@ public class ConnectDB {
 //            String user="root";
 //            String password="123456789";
 //            conn=DriverManager.getConnection(url,user,password);
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ltnc_add?verifyServerCertificate=false&useSSL=true", "root", "dinhmanh12");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ltnc_add?verifyServerCertificate=false&useSSL=true", "root", "0510");
             if (conn != null) {
                 System.out.println("Connected to database successfully");
             }
